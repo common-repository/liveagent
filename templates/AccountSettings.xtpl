@@ -1,0 +1,42 @@
+<!-- BEGIN: main -->
+<div class="logo">
+    <h2>{dialogCaption}</h2>
+</div>
+
+<div class="wrap">
+    {errorMessages}
+    {infoMessages}
+    <form class="Signup__form" id="configForm" action="{formActionURL}" method="post">
+        <h3 class="Signup__form__title">{settingsSection}</h1>
+        <div id="signup">
+            <input name="option_page" type="hidden" value="{saveActionSettingsFlag}"/>
+            <div id="nameFieldmain" class="Signup__form__item fontello">
+                <input type="text" name="{urlName}" value="{la-url}" placeholder="http://account.ladesk.com/" required="required" autocomplete="off">
+                <div class="ErrorMessage">
+                </div>
+            </div>
+        
+            <div id="mailFieldmain" class="Signup__form__item fontello">
+                <input type="email" name="{ownerEmailName}" value="{la-owner-email}" placeholder="{emailPlaceholder}" required="required" autocomplete="off">
+                <div class="ErrorMessage">
+                </div>
+            </div>
+
+            <div id="nameFieldmain" class="Signup__form__item fontello">
+                <input type="text" name="{apiKeyName}" placeholder="{accountAPIKey}" value="{la-owner-apikey}" required="required" autocomplete="off" maxlength="32">
+                <div class="ErrorMessage">
+                </div>
+            </div>
+
+            <div class="Signup__form__submit">
+                <div id="connectButtontextSpan" class="Button Button--full">
+                    <span>{connectCaption}</span>
+                </div>
+            </div>
+
+            <div class="LaSignupFormDesc">{contactHelp}&nbsp;<a href="http://support.qualityunit.com/submit_ticket" target="_blank">{contactLink}</a>.</div>
+        </div>
+        </div>
+    </form>
+</div>
+<!-- END: main -->

@@ -1,0 +1,103 @@
+<!-- BEGIN: main -->
+<div class="wrap"><h1><!-- handler for 3rd party update notifications--></h1></div>
+
+<div class="logo">
+    <h2>{getStarted}</h2>
+</div>
+
+<div class="wrap">
+    {errorMessages}
+    {infoMessages}
+    <div class="Signup__form">
+    <h3 class="Signup__form__title">{dialogCaption}</h3>
+    <p class="Signup__form__subtitle">{dialogSubcaption}</p>
+    <div id="signup">
+        <input id="plan" type="hidden" value="FreeTrial" autocomplete="off">
+        <input id="variation" type="hidden" value="freedesk" autocomplete="off">
+        <input id="continue" value="{registerUrlAction}" type="hidden">
+        <div id="nameFieldmain" class="Signup__form__item fontello-user">
+            <input type="text" name="Full name" placeholder="{fullNameLabel}" value="" required="required" autocomplete="off">
+            <div class="ErrorMessage">
+            </div>
+        </div>
+        <div id="mailFieldmain" class="Signup__form__item fontello-mail">
+            <input type="email" name="Email" placeholder="{emailPlaceholder}" value="" required="required" autocomplete="off">
+            <div class="ErrorMessage">
+            </div>
+        </div>
+        <div id="domainFieldmain" class="Signup__form__item fontello-company">
+            <input type="url" name="Domain" placeholder="{accountNameLabel}" required="required" autocomplete="off" maxlength="30">
+            <div class="Signup__form__item__domain">{domainPlaceholder}</div>
+            <div class="ErrorMessage">
+            </div>
+            <div class="Signup__form__item__info">
+                <div class="Signup__form__item__info__icon fontello-info">
+                </div>
+                <div class="Signup__form__item__info__content">{accountInfo}
+                </div>
+            </div>
+        </div>
+        <div id="promoFieldmain" class="Signup__form__item">
+            <input type="checkbox" name="Promo" id="sendOffers">
+            <label for="sendOffers">
+                <p>{productUpdatesCheck}</p>
+            </label>
+        </div>
+        <div id="signUpError">
+        </div>
+        <div class="Signup__form__submit">
+            <div class="Signup__form__submit__label">{free}
+            </div>
+            <div id="createButtonmain" class="Button Button--full">
+                <span id="createButtontextSpan">{submitCaption}
+                </span>
+            </div>
+            
+            <div class="skipMain">
+                <a href="{skipCreateUrl}" class="scalable">&gt; {skipLink}</a>
+            </div>
+
+            <div class="Signup__form__terms">
+                <p>{IAgree}&nbsp;
+                    <a title="T&amp;C" href="/terms-and-conditions/">{TnC}</a>&nbsp;{and}&nbsp;
+                    <a title="Privacy Policy" href="/privacy-policy/">{pp}</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="loader" class="nlHostedForm mainBox invisible">
+        <h3>{buildingLA}</h3>
+        <p>{buildingLALong}</p>
+        <div class="loading-bar">
+            <div class="progress-bar">
+                <div class="progress-stripes">////////////////////////</div>
+            </div>
+        </div>
+        <div class="loading-info">
+            <span class="percentage">0%</span> / <span class="loader-label">{loading}...</span>
+        </div>
+    </div>
+    
+    <div id="completed" class="nlHostedForm invisible">
+        <h1>{buildingLA}</h1>
+        <p>{buildingLALong}</p>
+        <p>{whatsNew}</p>
+        <a href="blog/" target="_self" class="ImLeButtonMain"><span>{blog}</span></a>
+    </div>
+</div>
+    
+    <div class="rightPanelVideo">
+        <div>
+            <h2>{settingsSection}</h2>
+            <p>{pluginHelpText}</p>
+        </div>
+        <div>
+            <h2>{howItWorks}</h2>
+            <p>{pluginHelpText2}</p>
+        </div>
+        <iframe width="500" height="311" src="https://www.youtube.com/embed/GO4rPDffDew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+</div>
+<!-- END: main -->

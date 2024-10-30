@@ -1,0 +1,114 @@
+<!-- BEGIN: main -->
+<div class="logo">
+    <h2>{LiveAgentFreeHelpdeskAndLiveChat}</h2>
+</div>
+<div class="wrap">
+    {errorMessages}
+    {infoMessages}
+    
+    <form id="configForm" name="edit_form" action="{saveUrlAction}" method="post">
+        <input name="option_page" type="hidden" value="{saveButtonCodeFlag}"/>
+        <div class="entry-edit">
+            <div class="entry-edit-head"><h4>{accountSectionLabel}</h4></div>
+            <fieldset>
+                <table cellspacing="0" class="form-list">
+                    <tbody>
+                        <tr id="row_la_url">
+                            <td class="label" style="vertical-align: middle; width: 200px"><label for="row_la_url">{accountUrlLabel}:</label></td>
+                            <td class="value" style="vertical-align: middle; text-align: center">
+                                <strong>{la-url}</strong><br />
+                                <a href="{ChangeUrl}">&gt;&gt;&gt; {ChangeLabel}</a>
+                            </td>
+                            <td class="scope-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td class="value" style="text-align: center">
+                                <div id="connectButtonmain" class="ImLeButtonMain1 buttonBgColor buttonBorderColor createButton" tabindex="0">
+                                    <span onclick="jQuery(function($) {$('#redirectForm').submit()})" class="buttonText">{loginLabel}</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p id="resetLink">{resetText}?</p>
+                <input type="hidden" id="resetUrl" value="{resetUrl}" />
+            </fieldset>
+        </div>
+        <div class="entry-edit">
+            <div class="entry-edit-head"><h4>{widgetsSectionLabel}</h4></div>
+            <fieldset>
+                {widgetsHTML}
+                <div class="displayInAdminCheckbox">
+                    <input onclick="jQuery(function($) {$('#configForm').submit()})" type="checkbox" id="displayInAdmin" value="Y" name="displayInAdmin" {displayInAdminChecked}> <label for="la-config-button-options"><strong>{displayInAdminPanel}</strong></label>
+                </div>
+                <div class="formFooter">
+                    <div id="connectButtonmain" class="ImLeButtonMain1 buttonBgColor buttonBorderColor createButton" tabindex="0">
+                        <span onclick="jQuery(function($) {$('#redirectForm2').submit()})" class="buttonText">{addMoreButtons}</span>
+                    </div>
+                    <span class="LaSignupFormDesc">{LaSignupFormDesc} {la-url}</span>
+                </div>
+            </fieldset>
+        </div>
+        <div class="entry-edit">
+            <div class="entry-edit-head"><h4>{integrationSectionLabel}</h4></div>
+            <fieldset>
+                <table cellspacing="0" class="form-list" style="width: 100%">
+                    <tbody>
+                        <tr id="la-config-button-code">
+                            <td class="label"><label for="la-config-button-code">{buttonCodeLabel}:</label></td>
+                            <td class="value">{la-buttons_buttoncode}
+                              <input type="hidden" value="{buttonId}" name="buttonId" id="buttonId">
+                            <p class="note"><span class="LaSignupFormDesc">{buttonCodeHelp}</span></p>
+                            </td>
+                            <td class="scope-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td class="value configOptions">
+                            <label for="la-config-button-options"><strong>{configOptionsTitle}:</strong></label><br />
+                            <input type="checkbox" id="configOptionName" value="1" name="configOptionName" {configOptionNameChecked}> {customer} {name}<br />
+                            <input type="checkbox" id="configOptionEmail" value="2" name="configOptionEmail" {configOptionEmailChecked}> {customer} {email}<br />
+                            <input type="checkbox" id="configOptionLevel" value="3" name="configOptionLevel" {configOptionLevelChecked}> {customer} {level}<br />
+                            <p class="note" style="margin-top:1em"><span class="LaSignupFormDesc">{configOptionsHelp}</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan=4>
+                                <div class="formFooter SaveWidgetCode">
+                                    <div id="connectButtonmain" class="ImLeButtonMain1 buttonBgColor buttonBorderColor createButton" tabindex="0">
+                                        <span onclick="jQuery(function($) {$('#configForm').submit()})" class="buttonText">{saveWidgetCode}</span>
+                                    </div>
+                                    <span class="LaSignupFormDesc">{saveWidgetCodeHelp}</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </div>
+        
+        <div class="entry-edit">
+            <div class="entry-edit-head"><h4>{otherSectionLabel}</h4></div>
+            <fieldset>
+                <table cellspacing="0" class="form-list">
+                    <tbody>
+                        <tr id="la-config-create-customer">
+                            <td class="label" style="vertical-align: middle; width: 200px"><label for="laCreateCustomer">{createCustomer}:</label></td>
+                            <td class="value" style="vertical-align: middle; text-align: center; width: 200px">
+                                <input onchange="jQuery(function($) {$('#configForm').submit()})" type="checkbox" id="laCreateCustomer" value="1" name="laCreateCustomer" {laCreateCustomerChecked}>
+                            </td>
+                            <td class="scope-label"><span class="LaSignupFormDesc">{createCustomerHelp}</span></td>
+                            <td class="value" style="text-align: center"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </div>
+    </form>
+    
+    <form id="redirectForm" name="redirectForm" action="{laAgentUrl}" method="post" target="_blank">
+        <input type="hidden" name="action" value="login">
+        <input type='hidden' name='AuthToken' value='{agentToken}'>
+    </form>
+    <form id="redirectForm2" name="redirectForm" action="{laAgentUrl}#Chat-Buttons;" method="post" target="_blank">
+        <input type="hidden" name="action" value="login">
+        <input type='hidden' name='AuthToken' value='{agentToken}'>
+    </form>
+    <p style="text-align: right">{contactHelp}&nbsp;<a href="http://support.qualityunit.com/submit_ticket" target="_blank" style="color: #ea7601;">{contactLink}</a>.</p>
+</div>
+<!-- END: main -->

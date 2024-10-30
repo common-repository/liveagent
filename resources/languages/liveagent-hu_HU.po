@@ -1,0 +1,484 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LiveAgent 4.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-03 11:05+0100\n"
+"PO-Revision-Date: 2015-11-03 11:06+0100\n"
+"Last-Translator: Martin Pullmann <support@qualityunit.com>\n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Form/Base.class.php:33
+msgid "ERROR"
+msgstr "HIBA"
+
+#: Form/Handler.class.php:110 Form/Handler.class.php:157
+msgid "Unable to connect to"
+msgstr "Nem lehet csatlakozni"
+
+#: Form/Handler.class.php:125 Form/Handler.class.php:130
+msgid "Button code was saved successfully"
+msgstr "Sikeresen mentette a gomb kódja"
+
+#: Form/Handler.class.php:126
+msgid ""
+"The button loading might be blocked by your server - if the button is not "
+"displayed, click the"
+msgstr ""
+"A gomb be blokkolhatja a kiszolgáló - ha a gomb nem látható, kattintson a"
+
+#: Form/Handler.class.php:128
+msgid "LiveAgent section again."
+msgstr "LiveAgent részben újra."
+
+#: Form/Settings/Account.class.php:32
+msgid "Free live chat and helpdesk plugin for Wordpress"
+msgstr "Ingyenes élő chat és helpdesk dugó részére Wordpress"
+
+#: Form/Settings/Account.class.php:33
+msgid "Connect"
+msgstr "Kapcsolat"
+
+#: Form/Settings/Account.class.php:34
+msgid "Connect to an existing account"
+msgstr "Kapcsolódás meglévő fiók"
+
+#: Form/Settings/Account.class.php:35 Form/Settings/ButtonCode.class.php:124
+msgid "contact us"
+msgstr "lépjen velünk kapcsolatba"
+
+#: Form/Settings/Account.class.php:36 Form/Settings/ButtonCode.class.php:123
+msgid "Do you need any help with this plugin? Feel free to"
+msgstr "Akármi segít-val ez a plugin van szüksége? Ne habozzon, hogy"
+
+#: Form/Settings/Account.class.php:37
+msgid "Url"
+msgstr "URL"
+
+#: Form/Settings/Account.class.php:38
+msgid "Url where your LiveAgent installation is located"
+msgstr "URL mely a Live Agent telepítéshez vezet"
+
+#: Form/Settings/Account.class.php:39
+msgid "Username which you use to login to your LiveAgent"
+msgstr "Felhasználónév amelynek segítségével jelentkezzen be a LiveAgent"
+
+#: Form/Settings/Account.class.php:40
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: Form/Settings/Account.class.php:41 Form/Signup.class.php:80
+msgid "SSL secure signup"
+msgstr "Biztonságos SSL-regisztráció"
+
+#: Form/Settings/Account.class.php:42
+msgid "URL"
+msgstr "URL"
+
+#: Form/Settings/Account.class.php:43 Form/Signup.class.php:82
+msgid "Email"
+msgstr "E-mail cím"
+
+#: Form/Settings/Account.class.php:44
+msgid "API Key"
+msgstr "API kulcs"
+
+#: Form/Settings/ButtonCode.class.php:122 Form/Signup.class.php:78
+msgid "Live chat and helpdesk plugin for Wordpress"
+msgstr "Ingyenes élő chat és helpdesk dugó részére Wordpress"
+
+#: Form/Settings/ButtonCode.class.php:125
+msgid "Reset everything and start over"
+msgstr "Állítsa vissza mindent, és kezdjük újra"
+
+#: Form/Settings/ButtonCode.class.php:126
+msgid "Actual button code"
+msgstr "Tényleges gomb kódja"
+
+#: Form/Settings/ButtonCode.class.php:127
+msgid "Button code"
+msgstr "Gomb kód"
+
+#: Form/Settings/ButtonCode.class.php:128
+msgid "Your LiveAgent account"
+msgstr "A LiveAgent fiók"
+
+#: Form/Settings/ButtonCode.class.php:129
+msgid "Account URL"
+msgstr "Fiók URL-címét"
+
+#: Form/Settings/ButtonCode.class.php:130
+msgid "Login to your account"
+msgstr "Jelentkezzen be a fiókjába"
+
+#: Form/Settings/ButtonCode.class.php:131
+msgid "Connect to a different account"
+msgstr "Kapcsolódás meglévő fiók"
+
+#: Form/Settings/ButtonCode.class.php:132
+msgid ""
+"This is the chat button code which will be automatically placed to your "
+"Wordpress site"
+msgstr ""
+"Ez a chat gombra kód, amely automatikusan bekerülnek a WordPress honlap"
+
+#: Form/Settings/ButtonCode.class.php:133
+msgid "If customer is logged in, you can automatically add these to chat."
+msgstr ""
+"Ha az ügyfél bejelentkezett, akkor automatikusan hozzá ezeket beszélgetni."
+
+#: Form/Settings/ButtonCode.class.php:134
+msgid "Additional options"
+msgstr "További beállítások"
+
+#: Form/Settings/ButtonCode.class.php:135
+msgid "customer"
+msgstr "ügyfél"
+
+#: Form/Settings/ButtonCode.class.php:136
+msgid "name"
+msgstr "név"
+
+#: Form/Settings/ButtonCode.class.php:137
+msgid "email"
+msgstr "email"
+
+#: Form/Settings/ButtonCode.class.php:138
+msgid "level"
+msgstr "emelet"
+
+#: Form/Settings/ButtonCode.class.php:139
+msgid "Your chat buttons"
+msgstr "A chat gomb"
+
+#: Form/Settings/ButtonCode.class.php:140
+msgid "Add more buttons"
+msgstr "További gombok hozzáadása"
+
+#: Form/Settings/ButtonCode.class.php:141
+msgid "This will redirect you to your LiveAgent account"
+msgstr "Amely átirányítja a LiveAgent fiók"
+
+#: Form/Settings/ButtonCode.class.php:142
+msgid "Display button in admin panel"
+msgstr "Megjelenítése gombra admin felületen"
+
+#: Form/Settings/ButtonCode.class.php:143
+msgid ""
+"The default widget code has just changed. You have to save it to apply the "
+"changes to the site chat widget."
+msgstr ""
+"Az alapértelmezett widget-kód nemrég megváltozott. Meg kell menteni, hogy "
+"alkalmazza a változtatásokat a honlapon csevegés widget."
+
+#: Form/Settings/ButtonCode.class.php:144
+msgid "Save widget code"
+msgstr "Mentés gomb kódot"
+
+#: Form/Settings/ButtonCode.class.php:158
+msgid "In use"
+msgstr "Használatban"
+
+#: Form/Settings/ButtonCode.class.php:159
+msgid "An error occurred: "
+msgstr "Hiba lépett fel:"
+
+#: Form/Settings/ButtonCode.class.php:160
+msgid "Use this button"
+msgstr "Használja ezt a gombot"
+
+#: Form/Signup.class.php:79
+msgid "Create your free LiveAgent trial!"
+msgstr "Készítse el ingyenes LiveAgent tárgyalás!"
+
+#: Form/Signup.class.php:81
+msgid "Create LiveAgent account"
+msgstr "Hozzon létre LiveAgent fiók"
+
+#: Form/Signup.class.php:83
+msgid "Full name"
+msgstr "Teljes név"
+
+#: Form/Signup.class.php:84
+msgid "Your login information will be sent here"
+msgstr "A bejelentkezési információkat fog küldeni ide"
+
+#: Form/Signup.class.php:85
+msgid "Your account name"
+msgstr "A fiók neve"
+
+#: Form/Signup.class.php:86
+msgid ".ladesk.com"
+msgstr ".ladesk.com"
+
+#: Form/Signup.class.php:87
+msgid "By creating an account I agree with the"
+msgstr "A regisztráció egyetértek a"
+
+#: Form/Signup.class.php:88
+msgid "Terms & Conditions"
+msgstr "Szabályokat és Követelményeket"
+
+#: Form/Signup.class.php:89
+msgid "Skip this step, I already have an account"
+msgstr "Kihagyni ezt a lépést, már van számlám"
+
+#: Form/Signup.class.php:90
+msgid "Building Your LiveAgent"
+msgstr "Az épület LiveAgent"
+
+#: Form/Signup.class.php:91
+msgid ""
+"Your account is being created. Your login information will be sent to your "
+"email address."
+msgstr ""
+"Az Ön számlája jön létre. A bejelentkezési információkat fog küldeni az e-"
+"mail címre."
+
+#: Form/Signup.class.php:92
+msgid "Meanwhile, you can check what's new on"
+msgstr "Közben, akkor ellenőrizze, milyen újdonságok vannak"
+
+#: Form/Signup.class.php:93
+msgid "Loading"
+msgstr "Töltés"
+
+#: Form/Signup.class.php:94
+msgid "Our blog"
+msgstr "A blog"
+
+#: Form/Signup.class.php:95
+msgid "See how it works"
+msgstr "Hogyan működik"
+
+#: Form/Signup.class.php:96
+msgid "Create a new account"
+msgstr "Az új fiók létrehozása"
+
+#: Form/Signup.class.php:97
+msgid ""
+"We want you to enjoy the full functionality of LiveAgent with 14 days free "
+"account. It does not limit the number of agents and you have the option to "
+"activate the most of available features."
+msgstr ""
+"Azt akarom, hogy élvezze a teljes funkcionalitását LiveAgent, 14 napos "
+"ingyenes fiókot. Ez nem korlátozza az ügynökök számát, és megvan a "
+"lehetőség, hogy aktiválja a legtöbb elérhető funkciókat."
+
+#: Form/Signup.class.php:98
+msgid ""
+"Fully equipped helpdesk and live chat software. Get a competitive advantage "
+"with top-notch customer service."
+msgstr ""
+"Teljesen felszerelt helpdesk és az élő chat szoftver. Kap egy versenyelőnyt "
+"nyújt remek ügyfélszolgálatot."
+
+#: Form/Validator/Account.class.php:15
+msgid "You must enter an API KEY"
+msgstr "Meg kell adnia API kulcsot"
+
+#: Form/Validator/Account.class.php:20
+msgid "You must enter valid email address"
+msgstr "Meg kell adnia egy érvényes email címet"
+
+#: Form/Validator/Account.class.php:24
+msgid "You must enter valid domain name"
+msgstr "Meg kell adnia egy érvényes domain név"
+
+#: liveagent.php:36
+#, php-format
+msgid "Critical error during %s plugin load %s"
+msgstr "Kritikus hiba %s bővítmény terhelés %s"
+
+#: liveagent.php:138
+msgid "Installing"
+msgstr "Telepítek"
+
+#: liveagent.php:139
+msgid "Just a few more seconds"
+msgstr "Még néhány másodperc"
+
+#: liveagent.php:140
+msgid "Installation completed. Setting up..."
+msgstr "Telepítés befejeződött"
+
+#: liveagent.php:141
+msgid "Are you sure you want to cancel your account?"
+msgstr "Biztosan törölni szeretné számláját?"
+
+#: liveagent.php:189
+msgid "LiveAgent"
+msgstr "LiveAgent"
+
+#~ msgid "Unable to ping LiveAgent remotelly: "
+#~ msgstr "Nem sikerült elérni (ping-elni) Live Agent-et távúton"
+
+#~ msgid "Unable to login."
+#~ msgstr "Nem lehet bejelentkezni"
+
+#~ msgid "Answer from server: "
+#~ msgstr "Szerver válasz:"
+
+#~ msgid "Network connections are disabled"
+#~ msgstr "Hálózati kapcsolatok le vannak tiltva"
+
+#~ msgid "Proxy failed: %s"
+#~ msgstr "Proxy sikertelen: %s"
+
+#~ msgid "There were errors, please check the highlighted fields"
+#~ msgstr "Hiba történt, kérjük, ellenőrizze a kijejlölt mezőket"
+
+#~ msgid "Save"
+#~ msgstr "Mentés"
+
+#~ msgid "Create your Trial account"
+#~ msgstr "Hozzon létre magának egy próba számlát"
+
+#~ msgid "Create your account"
+#~ msgstr "Hozzon létre magának egy számlát"
+
+#, fuzzy
+#~ msgid "LiveAgent - Live chat and helpdesk plugin for Wordpress"
+#~ msgstr ""
+#~ "Live Agent - ingyenes csevegő és ügyfélszolgálati bépülő modul Wordpress "
+#~ "számára"
+
+#~ msgid ""
+#~ "We want you to enjoy the full functionality of LiveAgent with the trial "
+#~ "account."
+#~ msgstr ""
+#~ "We want you to enjoy the full functionality of LiveAgent with the trial "
+#~ "account."
+
+#~ msgid "Domain selection"
+#~ msgstr "Domain választás"
+
+#~ msgid "Your first name and last name"
+#~ msgstr "Keresztnév és vezetéknév"
+
+#~ msgid "By creating an account I agree to"
+#~ msgstr "Számla létrehozásávál elfogadom a"
+
+#~ msgid "Account installation"
+#~ msgstr "Számla telepítése"
+
+#~ msgid ""
+#~ "Your account will be online within the next few minutes. In the meantime, "
+#~ "you should recieve a confirmation email including your account "
+#~ "credentials."
+#~ msgstr ""
+#~ "Az Ön számlája pár percen elérhető lesz. Közben kellene kapnia egy "
+#~ "értesítő elektronikus üzenetet, mely tartalmazza a bejelentkezési "
+#~ "adatokat."
+
+#~ msgid "Note: Sometimes the process account creation may take"
+#~ msgstr "Megjegyzés: néha a számla látrehozása eltarthat"
+
+#~ msgid "a bit longer"
+#~ msgstr "kicsit többet"
+
+#~ msgid "Initializing..."
+#~ msgstr "Inicializálás..."
+
+#~ msgid "Unable to connect - wrong name or password"
+#~ msgstr "Csatlakozás sikertelen - rossz felhasználónév vagy jelszó"
+
+#~ msgid "Unable to connect"
+#~ msgstr "Csatlakozás sikertelen"
+
+#~ msgid "Wrong username or password"
+#~ msgstr "Rossz felhasználónév vagy jelszó"
+
+#~ msgid "Signup failed. Please try again in few minutes."
+#~ msgstr "Regisztrálás sikertelen. Kérjük próbálja újra később."
+
+#~ msgid "The chat button is currently disabled."
+#~ msgstr "Csevegő gomb jelenleg le van tiltva"
+
+#~ msgid "Do you need any help with this plugin? Feel free to "
+#~ msgstr "Ha netán segítségre szorul ezen bépülő modullal, nyugodtan"
+
+#~ msgid "Your account"
+#~ msgstr "Az Ön számlája"
+
+#~ msgid "Account url"
+#~ msgstr "Számla URL"
+
+#~ msgid "login"
+#~ msgstr "bejelentkezés"
+
+#~ msgid "change"
+#~ msgstr "megváltoztani"
+
+#~ msgid "Place here the code from your LiveAgent admin panel"
+#~ msgstr "Helyezze ide a Live Agent admin panelben kapott kódot"
+
+#~ msgid "Okay, I want to"
+#~ msgstr "Ok,"
+
+#~ msgid "cancel this change"
+#~ msgstr "nem akarom elmenteni ezt a változást"
+
+#~ msgid "Password"
+#~ msgstr "Jelszó"
+
+#~ msgid "Account settings"
+#~ msgstr "Számla beállításai"
+
+#~ msgid "Username which you use to login to your Live Agnet"
+#~ msgstr "Felhasználónév melyet a Live Agent-be való bejelnetkezésre használ"
+
+#~ msgid "Your password"
+#~ msgstr "Jelszava"
+
+#~ msgid "Save Account Settings"
+#~ msgstr "Elmenteni a számla beállításait"
+
+#~ msgid "Cancel account"
+#~ msgstr "Törölni a számlát"
+
+#, fuzzy
+#~ msgid ""
+#~ "this will clear all your existing account settings and offer you to "
+#~ "create a new trial account"
+#~ msgstr ""
+#~ "ez törli az összes létezo számla beállítást és lehetoséget ad új ingyenes "
+#~ "számlát létrehozni"
+
+#~ msgid "You must enter valid full name"
+#~ msgstr "Adja meg a teljes nevét "
+
+#~ msgid "hello my name is %s"
+#~ msgstr "Heló, a nevem %s"
+
+#~ msgid "Hello %s, do you need %s?"
+#~ msgstr "Heló %s, szükséged van %s ?"
+
+#~ msgid "Create your Free account"
+#~ msgstr "Hozzon létre magának egy számlát"
+
+#~ msgid ""
+#~ "We want you to enjoy the full functionality of LiveAgent with the free "
+#~ "account. It does not limit the number of agents and you have the option "
+#~ "to activate the most of available features. The only limitation is max. "
+#~ "50 conversations per month"
+#~ msgstr ""
+#~ "Érdekünkben áll, hogy az ingyenes számlával élvezhesse a Live Agent "
+#~ "összes kiváltságát. Az ügynökök száma korlátlan és lehetősége van a "
+#~ "legtöbb elérhető funkció aktiválására. Egyetlen korlát: maximum 50 "
+#~ "csevegés havonta."
+
+#~ msgid "read more"
+#~ msgstr "tudjon meg többet"
+
+#~ msgid "Login to Admin panel"
+#~ msgstr "Bejelentkezés az Adminisztrátor panelbe"
